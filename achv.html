@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meep Meep</title>
+    <title>"Achievements"</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="output.css" rel="stylesheet">
 </head>
@@ -33,8 +33,8 @@
                     <div class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                            <a href="index.html" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page">Main Menu</a>
-                            <a href="achv.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Yap</a>
+                            <a href="index.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Main Menu</a>
+                            <a href="achv.html" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white hover:bg-gray-700" aria-current="page">Yap</a>
                             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">More Yapping</a>
                             <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Lots More Yapping</a>
                         </div>
@@ -66,26 +66,114 @@
         <div class="sm:hidden absolute top-16 left-0 w-full bg-gray-800 z-50 overflow-hidden max-h-0 opacity-0 scale-y-95 transform transition-all duration-1000 ease-in-out origin-top" id="mobile-menu">
             <div class="space-y-1 px-2 pt-2 pb-3">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Main Menu</a>
-                <a href="achv.html" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Yap</a>
+                <a href="index.html" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Main Menu</a>
+                <a href="achv.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white hover:bg-gray-700" aria-current="page">Yap</a>
                 <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">More Yapping</a>
                 <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Lots More Yapping</a>
             </div>
         </div>
     </nav>
 
-    <div class="min-h-screen flex flex-col items-center justify-center bg-gray-700 p-4 opacity-0 transform translate-y-full transition-all duration-1000 mt-5" id="yeetThis">
-        <img src="placeholder" alt="" class="w-40 h-40 rounded-full shadow-lg mb-4">
-        <p class="text-xl font-semibold text-gray-100">Michael Vergo</p>
-        <p>Informatics Student</p>
-        <p class="mb-6">2024-present</p>
-        <ul class="text-center text-gray-300">
-            <p>What I've done so far</p>
-            <li>*Insert achievement*</li>
-            <li>*Insert achievement*</li>
-            <li>*Insert achievement*</li>
-            <li>*Insert achievement*</li>
-        </ul>
+    <div id="yeetThis" class="opacity-0 transform translate-y-full transition-all duration-1000 mt-6 px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-blue-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 20c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Card Title 1</h3>
+                    <p class="text-gray-300 text-sm">Short description of what this card is about.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-blue-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 20c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Card Title 2</h3>
+                    <p class="text-gray-300 text-sm">Short description of what this card is about.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-blue-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 20c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Card Title 3</h3>
+                    <p class="text-gray-300 text-sm">Short description of what this card is about.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-blue-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 20c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Card Title 4</h3>
+                    <p class="text-gray-300 text-sm">Short description of what this card is about.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-green-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Another Card 1</h3>
+                    <p class="text-gray-300 text-sm">More useful info goes here about this thing.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-green-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Another Card 2</h3>
+                    <p class="text-gray-300 text-sm">More useful info goes here about this thing.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-green-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Another Card 3</h3>
+                    <p class="text-gray-300 text-sm">More useful info goes here about this thing.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-gray-800 shadow-md rounded-2xl p-4 space-x-4">
+                <div class="text-green-500 text-3xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-100">Another Card 4</h3>
+                    <p class="text-gray-300 text-sm">More useful info goes here about this thing.</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
